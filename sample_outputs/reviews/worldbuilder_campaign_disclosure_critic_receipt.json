@@ -1,0 +1,32 @@
+{
+  "receipt_id": "forge_worldbuilder_campaign_disclosure_critic_001",
+  "receipt_type": "disclosure_critic_receipt",
+  "status": "synthetic_public_example",
+  "authority_ceiling": "public_safe_only",
+  "artifact_under_review": "examples/worldbuilder_campaign_packet.md",
+  "decision": "pass_public_boundary_with_hold",
+  "final_gate": "hold_for_review",
+  "checks": {
+    "private_campaign_corpus": "absent",
+    "private_runtime_internals": "absent",
+    "private_hardware_paths": "absent",
+    "private_branch_topology": "absent",
+    "private_scoring_routing_merge_logic": "absent",
+    "real_private_manifests": "absent",
+    "real_private_receipts": "absent",
+    "production_authority": "not_granted"
+  },
+  "protected_categories_to_keep_private": [
+    "private campaign source corpus",
+    "private tabletop runtime internals",
+    "hardware authority paths",
+    "private branch/worktree topology",
+    "private scoring/routing/merge logic",
+    "real private manifests or receipts"
+  ],
+  "notes": [
+    "Synthetic public critic receipt.",
+    "The packet is reviewable as a public worldbuilder example but remains held for human review.",
+    "No canon, runtime, hardware, git promotion, or production authority is granted."
+  ]
+}
